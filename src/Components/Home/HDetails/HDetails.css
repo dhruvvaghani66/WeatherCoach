@@ -1,0 +1,340 @@
+.hdetail {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+    height: 80vh;
+    background-image: url('../../../assets/hweather.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 25px;
+    color: white;
+}
+
+.hdetail-page {
+    margin-top: 3.3%;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.hdetail-left {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.hdetail-left h2 {
+    margin-left: 23%;
+    font-size: 1.9em;
+    text-align: center;
+}
+
+.hdetail-left p {
+    margin-left: 30%;
+    margin-top: 3%;
+    width: 60%;
+    text-align: center;
+}
+
+.detail-main1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    flex-direction: column;
+}
+
+.detail-cards {
+    display: flex;
+    margin-top: 2px;
+    margin-left: 120px;
+    margin-bottom: 0px;
+}
+
+.detail-card {
+    justify-content: center;
+    margin-top: 6%;
+    height: 28vh;
+    background-image: url('../../../assets/sunrisebg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    margin-right: 20px;
+}
+
+.detail-card p {
+    margin-top: 72px;
+    font-size: 1.4em;
+    margin-bottom: 8px;
+    margin-left: 0px;
+}
+
+.detail-card span {
+    font-size: 2em;
+    margin-right: 50px;
+    font-weight: 600;
+}
+
+.detail-card1 {
+    justify-content: center;
+    margin-top: 6.3%;
+    height: 28vh;
+    background-image: url('../../../assets/sunsetbg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+    width: 25%;
+    margin-right: 20px;
+}
+
+.detail-card1 p {
+    margin-top: 72px;
+    font-size: 1.4em;
+    margin-bottom: 8px;
+    margin-left: 0px;
+}
+
+.detail-card1 span {
+    font-size: 2em;
+    margin-right: 50px;
+    font-weight: 600;
+}
+
+.detail-card-large {
+    background-color: rgba(255, 255, 255, 0.288);
+    opacity: 0.7;
+    height: 30vh;
+    border-radius: 14px;
+    padding: 20px;
+    width: 40%;
+    height: 16%;
+    margin-left: 13%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.item {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.item img {
+    width: 34px;
+    height: 34px;
+    margin-right: 20px;
+}
+
+.item p {
+    font-size: 0.9em;
+}
+
+.hdetail-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 152px;
+    background-image: url('../../../assets/right.png');
+    background-repeat: no-repeat;
+    width: 544px;
+    border-radius: 40px;
+    margin-left: -40%;
+}
+
+.current-temp-card {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.temp-row {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 0%;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 45px;
+}
+
+.temp-row p {
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-right: 28px;
+}
+
+.temp-row span {
+    font-size: 1.8em;
+}
+
+.forecast-columns {
+    margin-left: 8%;
+    justify-content: space-around;
+}
+
+.righ {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.forecast-column1 {
+    border-radius: 10px;
+    text-align: start;
+    width: 85px;
+    margin: 5px;
+}
+
+.forecast-column1 img {
+    width: 35px;
+    height: 30px;
+}
+
+.forecast-column1 p {
+    margin-top: 8px;
+    font-size: 0.9em;
+}
+
+.detail-end {
+    margin-top: 10%;
+    color: #FBB03B;
+}
+
+.news-tomorrow {
+    margin-top: 2%;
+    color: white;
+}
+
+.news-tomorrow img {
+    margin-left: 3%;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .hdetail {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .hdetail-page {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .hdetail-left h2 {
+        margin-bottom: 20px;
+    }
+
+    .hdetail-left p {
+        font-size: 0.9em;
+        margin-bottom: 20px;
+    }
+
+    .hdetail-left h2, .hdetail-left p {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .detail-cards {
+        flex-direction: row;
+        margin: 0 0;
+        margin-right: -28px;
+        /* width: 50vh; */
+    }
+
+    .detail-card {
+        width: 230px;
+        /* height: 60vh; */
+        margin-left: 1%;
+    }
+
+    .detail-card1 {
+        width: 230px;
+        /* margin-right: 2%; */
+    }
+
+    .detail-card p, .detail-card1 p {
+        margin-top: 65px;
+        font-size: 1.3em;
+        text-align: start;
+        margin-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .detail-card span, .detail-card1 span {
+        font-size: 1.8em;
+        margin-left: 25px;
+        /* margin-top: 8px; */
+    }
+
+    .detail-card-large {
+        width: 84%;
+        margin: 20px auto;
+    }
+
+    .hdetail-right {
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .temp-row {
+        /* justify-content: center; */
+        margin-left: 6px;
+        margin: 30px 0;
+    }
+    .temp-row p{
+        /* justify-content: center; */
+        margin-left: 30px;
+        font-size: 2.3em;
+        /* margin: 18px 0; */
+    }
+    .temp-row span{
+        /* justify-content: center; */
+        /* margin-left: 36px; */
+        font-size: 1.6em;
+        /* margin: 18px 0; */
+    }
+    .righ {
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content: start;
+        margin-left: 6%;
+        margin-top: -6%;
+        /* height: 0; */
+    }
+
+    .hdetail-right {
+        /* height: 780px; */
+        width: 93%;
+        margin-left: 8px;
+        border-radius: 20px;
+    }
+
+    .forecast-column1 {
+        /* margin: 0px; */
+        width: 80px;
+    }
+
+    .detail-end {
+        margin-top: 20px;
+        font-size: 1em;
+        margin-bottom: 30px;
+        /* margin-bottom: 60px; */
+    }
+
+    .news-update, .news-tomorrow {
+        text-align: start;
+        margin-left: 30px;
+    }
+}
